@@ -4,7 +4,7 @@ import pickle
 cv = pickle.load(open("model/vectorizer.pkl","rb"))
 clf = pickle.load(open("model/model.pkl","rb"))
 
-
+####&&&&&#&&&&&#&#&#&#&&&&&&&&&&#&&&&&&&&&
 app = Flask(__name__)
 
 @app.route('/')
